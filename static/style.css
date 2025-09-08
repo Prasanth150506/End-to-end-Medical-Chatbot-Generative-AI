@@ -1,0 +1,18 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 12px;
+}
+.chat-box::-webkit-scrollbar {
+  width: 8px;
+}
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+  border-radius: 10px;
+}
